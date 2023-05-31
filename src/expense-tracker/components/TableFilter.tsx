@@ -1,7 +1,8 @@
-import { categories } from "../App"
+import categories from "../categories";
+
 
 interface Props {
-    onSelect: (category: string) => void
+    onSelect: (categories: string) => void
 }
 
 const TableFilter = ({ onSelect }: Props) => {

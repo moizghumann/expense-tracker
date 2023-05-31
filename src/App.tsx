@@ -1,10 +1,8 @@
 import { useState } from 'react'
-import Table from './components/Table'
-import Form from './components/Form'
+import Table from './expense-tracker/components/Table'
+import Form from './expense-tracker/components/Form'
 import produce from 'immer';
-import TableFilter from './components/TableFilter';
-
-export const categories = ['groceries', 'utility', 'entertainment'] as const
+import TableFilter from './expense-tracker/components/TableFilter';
 
 const App = () => {
 

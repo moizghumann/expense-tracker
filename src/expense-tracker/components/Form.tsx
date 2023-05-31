@@ -1,7 +1,8 @@
 import { useForm } from 'react-hook-form';
 import { z } from 'zod';
 import { zodResolver } from '@hookform/resolvers/zod';
-import { categories } from '../App';
+import categories from "../categories";
+
 
 const schema = z.object({
     description: z.string().min(3).max(20),
@@ -55,7 +56,7 @@ const Form = ({ onSubmit }: FormProps) => {
 
                         {/* select only pre defined categories in the form which exist in category field in formdata */}
                         <option value="">All categories</option>
-                        {categories.map((categories) => <option key={categories} value={categories} >{categories}</option>)}
+                        {categories.map((category) => <option key={category} value={category} >{category}</option>)}
                     </select>
                 </div>
 
