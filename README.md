@@ -15,15 +15,13 @@ You can view the live website at
 - TypeScript: A typed superset of JavaScript that compiles to plain JavaScript.
 - React Hooks: A feature that allows you to use state and other React features without writing a class.
 - React Router: A library for declarative routing in React applications.
-- Chart.js: A JavaScript library for creating beautiful charts and graphs.
-- CSS Modules: A CSS file in which all class names and animation names are scoped locally.
 
 ## Getting Started
 
 To get a local copy up and running, follow these steps:
 
 1. Clone the repository:
-git clone https://github.com/moizghumann/expense-tracker.git
+`git clone https://github.com/moizghumann/expense-tracker.git`
 
 2. Install the dependencies:
 npm install
