@@ -1,7 +1,7 @@
 # Expense Tracker
 
 Expense Tracker is a web application that allows you to track your expenses and manage your budget effectively. It provides an intuitive interface to add, view, and delete expenses based on different categories.
-You can view the live website at 'https://expense-tracker-umber-beta.vercel.app/'
+You can view the live website at https://expense-tracker-umber-beta.vercel.app/
 ## Features
 
 - Add new expenses with descriptions, amounts, and categories.
