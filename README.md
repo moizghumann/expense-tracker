@@ -24,10 +24,10 @@ To get a local copy up and running, follow these steps:
 `git clone https://github.com/moizghumann/expense-tracker.git`
 
 2. Install the dependencies:
-npm install
+`npm install`
 
 3. Start the development server:
-npm run dev
+`npm run dev`
 
 4. Open your web browser and visit `http://localhost:5173` to access the Expense Tracker application.
 
