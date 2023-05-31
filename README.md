@@ -14,7 +14,7 @@ You can view the live website at https://expense-tracker-umber-beta.vercel.app/
 - React: A JavaScript library for building user interfaces.
 - TypeScript: A typed superset of JavaScript that compiles to plain JavaScript.
 - React Hooks: A feature that allows you to use state and other React features without writing a class.
-- React Router: A library for declarative routing in React applications.
+- Zod: Zod is a TypeScript-first schema declaration and validation library.
 
 ## Getting Started
 
